@@ -53,27 +53,23 @@ One successfull built the project, you can start tomcat to test.
 	url:http://localhost:8080/studentservice/student
         request header:Accept:application/json, Content-Type:application/json
 	request body:
-        [                
           {
                  "rollNo": "200130364",
                  "name": "Satish Kumar",
                  "standard": "1st"
           }
-        ]
 	
 	response body:true
 ###PUT
 	url:http://localhost:8080/studentservice/student/1
         request header:Accept:application/json, Content-Type:application/json
         request body:
-        [
           {
 		 "id":1,
                  "rollNo": "200130364",
                  "name": "Satish Kumar",
                  "standard": "1st"
           }
-        ]
 
         response body:true
 
