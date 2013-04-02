@@ -12,7 +12,7 @@ Components:
 ## Prerequisites
 You need the following packages to be installed:
 * Java 7
-* Tomcat7
+* Tomcat 7
 * Maven 3.0.5
 * Git
 
