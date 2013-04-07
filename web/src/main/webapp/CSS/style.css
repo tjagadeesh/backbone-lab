@@ -1,9 +1,0 @@
-.rowhead{
-	margin-top: 50px;
-	border: 2px solid green;
-	width: 550px;
-}
-.rowhead .column, .row div{
-	display: inline-block;
-	width:150px;
-}
