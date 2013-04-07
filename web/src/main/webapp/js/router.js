@@ -1,17 +1,15 @@
 // Filename: router.js
 define(['backbone'], function(Backbone){
-  var AppRouter = Backbone.Router.extend({
+  var Router = Backbone.Router.extend({
     routes: {
-      // Define some URL routes
-      '/projects': 'showProjects'
-      //'/users': 'showUsers',
-
-      // Default
-      //'*actions': 'defaultAction'
+    	'/student/add' : 'addStudents',
+    	'/students' : 'showStudents',
+    	'' : 'showStudents',
+    	'*action' : 'showStudents'	
     },
     initialize: function(){
-      Backbone.history.start();  
+      Backbone.history.start(); 
     }
   });
-  return AppRouter;
+  return Router;
 });
