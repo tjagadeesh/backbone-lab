@@ -14,7 +14,7 @@ You need the following packages to be installed:
 * Java 7
 * Tomcat 7
 * Maven 3.0.5
-* Git
+* Git1
 
 ## Building from source
 After completing the prerequisites, you can follow the instructions to build the project.
