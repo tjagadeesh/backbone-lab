@@ -1,0 +1,16 @@
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>Roll No.</th>
+        <th>Name</th>
+        <th>Standard</th>
+    </tr>
+    <%  _(students).each(function(student) { %>
+    <tr>
+        <td><%= student.get("id") %></td>
+        <td><%= student.get("rollNo") %></td>
+        <td><%= student.get("name") %></td>
+        <td><%= student.get("standard") %></td>
+    </tr>
+    <% }); %>
+</table>

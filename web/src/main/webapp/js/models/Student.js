@@ -7,7 +7,7 @@ define([ 'backbone' ], function(Backbone) {
 			standard : '1st'
 		},
 		initialize : function() {
-			
+			console.log("Model Initialized....");
 		},
 	});
 	return Student;
