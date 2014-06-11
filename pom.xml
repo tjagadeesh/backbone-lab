@@ -16,7 +16,7 @@
 		<jaxb-api.version>2.2.7</jaxb-api.version>
 		<spring-version>3.2.0.RELEASE</spring-version>
 		<servlet-api-version>2.3</servlet-api-version>
-		<tomcat-location>/usr/share/tomcat7/webapps/</tomcat-location>
+		<tomcat-location>/var/lib/tomcat7/webapps</tomcat-location>
 	</properties>
 
 	<modules>
